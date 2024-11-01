@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on As I See</title><link>https://wsmxcz.github.io/docs/</link><description>Recent content in Docs on As I See</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wsmxcz@gmail.com (Che)</managingEditor><webMaster>wsmxcz@gmail.com (Che)</webMaster><copyright>© 2024 Che</copyright><lastBuildDate>Fri, 25 Oct 2024 01:48:52 +0800</lastBuildDate><atom:link href="https://wsmxcz.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Differential and Integral Rate Laws for Common Types of Reactions</title><link>https://wsmxcz.github.io/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</link><pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</guid><description>&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>This article is also used to evaluate KaTeX&amp;rsquo;s rendering performance.&lt;/span>
+&lt;/div>
+&lt;h2 class="relative group">Introduction
+&lt;div id="introduction" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Consider a general elementary reaction:
+$$
+a \mathrm{A} + b \mathrm{B} \rightarrow c \mathrm{C} + d \mathrm{D}
+$$
+By convention, since we would like the rate to be positive if the reaction proceeds from left to right, we choose positive derivatives for the products and negative ones for the reactants. The differential rate law can be written as:
+$$
+\frac{1}{c} \frac{\mathrm{d}[\mathrm{C}]}{\mathrm{d}t} = \frac{1}{d} \frac{\mathrm{d}[\mathrm{D}]}{\mathrm{d}t} = -\frac{1}{a} \frac{\mathrm{d}[\mathrm{A}]}{\mathrm{d}t} = -\frac{1}{b} \frac{\mathrm{d}[\mathrm{B}]}{\mathrm{d}t} = k [\mathrm{A}]^{a} [\mathrm{B}]^b
+$$
+The order of the reaction is the sum of the exponents of the reactants in the rate law. The overall order is the sum of the orders with respect to each reactant. The rate constant \(k\) is temperature-dependent and is independent of the concentrations of the reactants.&lt;/p></description></item></channel></rss>
