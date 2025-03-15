@@ -1,40 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>私が見た限り</title><link>https://wsmxcz.github.io/ja/</link><description>Recent content on 私が見た限り</description><generator>Hugo -- gohugo.io</generator><language>ja</language><managingEditor>wsmxcz@gmail.com (Che)</managingEditor><webMaster>wsmxcz@gmail.com (Che)</webMaster><copyright>© 2025 Che</copyright><lastBuildDate>Fri, 25 Oct 2024 01:48:52 +0800</lastBuildDate><atom:link href="https://wsmxcz.github.io/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>一般的な反応の微分速度式と積分速度式</title><link>https://wsmxcz.github.io/ja/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</link><pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/ja/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</guid><description>&lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->この記事はKaTeXのレンダリング性能を評価するためにも使用されています。&lt;/span>
-&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>私が見た限り</title>
+    <link>http://localhost:1313/ja/</link>
+    <description>Recent content on 私が見た限り</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>wsmxcz@gmail.com (Che)</managingEditor>
+    <webMaster>wsmxcz@gmail.com (Che)</webMaster>
+    <copyright>© 2025 Che</copyright>
+    <lastBuildDate>Fri, 25 Oct 2024 01:48:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>一般的な反応の微分速度式と積分速度式</title>
+      <link>http://localhost:1313/ja/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</link>
+      <pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate>
+      <author>wsmxcz@gmail.com (Che)</author>
+      <guid>http://localhost:1313/ja/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</guid>
+      <description>&lt;div
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;この記事はKaTeXのレンダリング性能を評価するためにも使用されています。&lt;/span&gt;
+&lt;/div&gt;
+
+
+  
+
+
+
 &lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->原文は英語であり、このテキストは自然言語処理プログラムによって翻訳されたものです。&lt;/span>
-&lt;/div>
-&lt;h2 class="relative group">導入
-&lt;div id="%E5%B0%8E%E5%85%A5" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E5%B0%8E%E5%85%A5" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>一般的な初級反応を考える：
+  
+    class=&#34;flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900&#34;
+  &gt;
+
+  &lt;span
+    
+      class=&#34;text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center&#34;
+    &gt;
+
+    
+
+  &lt;span class=&#34;relative block icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;
+
+  &lt;/span&gt;
+
+
+  &lt;/span&gt;
+
+  &lt;span
+    
+      class=&#34;dark:text-neutral-300&#34;
+    &gt;原文は英語であり、このテキストは自然言語処理プログラムによって翻訳されたものです。&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;導入 
+    &lt;div id=&#34;%E5%B0%8E%E5%85%A5&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%B0%8E%E5%85%A5&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;一般的な初級反応を考える：
 $$
 a \mathrm{A} + b \mathrm{B} \rightarrow c \mathrm{C} + d \mathrm{D}
 $$
@@ -42,4 +94,9 @@ $$
 $$
 \frac{1}{c} \frac{\mathrm{d}[\mathrm{C}]}{\mathrm{d}t} = \frac{1}{d} \frac{\mathrm{d}[\mathrm{D}]}{\mathrm{d}t} = -\frac{1}{a} \frac{\mathrm{d}[\mathrm{A}]}{\mathrm{d}t} = -\frac{1}{b} \frac{\mathrm{d}[\mathrm{B}]}{\mathrm{d}t} = k [\mathrm{A}]^{a} [\mathrm{B}]^b
 $$
-反応次数は速度法則における反応物の指数の和です。全体の反応次数は各反応物に対する反応次数の和です。速度定数 \(k\) は温度に依存し、反応物の濃度には依存しません。&lt;/p></description></item></channel></rss>
+反応次数は速度法則における反応物の指数の和です。全体の反応次数は各反応物に対する反応次数の和です。速度定数 \(k\) は温度に依存し、反応物の濃度には依存しません。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

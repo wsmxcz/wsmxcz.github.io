@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utility on As I See</title><link>https://wsmxcz.github.io/tags/utility/</link><description>Recent content in Utility on As I See</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>wsmxcz@gmail.com (Che)</managingEditor><webMaster>wsmxcz@gmail.com (Che)</webMaster><copyright>© 2025 Che</copyright><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wsmxcz.github.io/tags/utility/index.xml" rel="self" type="application/rss+xml"/><item><title>Unifying Multi-Format Mathmatical Formula Delimiters via Regular Expressions</title><link>https://wsmxcz.github.io/utilities/unifying-multi-format-mathematical-formula-delimiters-via-regular-expressions/test/</link><pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/utilities/unifying-multi-format-mathematical-formula-delimiters-via-regular-expressions/test/</guid><description>&lt;p>When editing Markdown, especially in scenarios involving page rendering, mathematical formulas often require specific escaped delimiters. Below are common delimiters and their corresponding regular expressions for efficient batch matching:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Inline Formulas&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;code>\(...\)&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\(&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>\\(...\\)&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\\\(&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\\\)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>$...$&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\$&lt;/span>&lt;span class="o">(&lt;/span>?!&lt;span class="se">\$&lt;/span>&lt;span class="o">)(&lt;/span>.*?&lt;span class="o">)(&lt;/span>?&amp;lt;!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\$&lt;/span>&lt;span class="o">(&lt;/span>?!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>&lt;strong>Block Formulas&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;code>\[...\]&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\[\n&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>\\[...\\]&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\\\[\n&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\\\\]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>$$...$$&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\$\$&lt;/span>&lt;span class="o">(&lt;/span>?!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\$\$&lt;/span>&lt;span class="o">(&lt;/span>?!&lt;span class="se">\$&lt;/span>&lt;span class="o">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>\begin{equation}...\end{equation}&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\&lt;/span>begin&lt;span class="o">{&lt;/span>equation&lt;span class="o">}&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>.*?&lt;span class="o">)&lt;/span>&lt;span class="se">\n&lt;/span>&lt;span class="o">(&lt;/span>?&amp;lt;!&lt;span class="se">\\&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="se">\\&lt;/span>end&lt;span class="o">{&lt;/span>equation&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>These patterns use &lt;strong>negative lookbehinds&lt;/strong> (&lt;code>(?&amp;lt;!\\)&lt;/code>, &lt;code>(?&amp;lt;!\$)&lt;/code>) and &lt;strong>negative lookaheads&lt;/strong> (&lt;code>(?!\\\$&lt;/code>, &lt;code>(?!\$&lt;/code>) to avoid conflicts between delimiters (e.g., &lt;code>$...$&lt;/code> vs. &lt;code>$$...$$&lt;/code>). For block formulas, line breaks (&lt;code>\n&lt;/code>) are included but can be removed if unnecessary.&lt;/p></description></item></channel></rss>

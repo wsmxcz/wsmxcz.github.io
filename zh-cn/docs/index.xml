@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 如我所见</title><link>https://wsmxcz.github.io/zh-cn/docs/</link><description>Recent content in Docs on 如我所见</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>wsmxcz@gmail.com (Che)</managingEditor><webMaster>wsmxcz@gmail.com (Che)</webMaster><copyright>© 2025 Che</copyright><lastBuildDate>Fri, 25 Oct 2024 01:48:52 +0800</lastBuildDate><atom:link href="https://wsmxcz.github.io/zh-cn/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>常见反应类型的微分速率法则与积分速率法则</title><link>https://wsmxcz.github.io/zh-cn/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</link><pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/zh-cn/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</guid><description>&lt;div
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 如我所见</title><link>https://wsmxcz.github.io/zh-cn/docs/</link><description>Recent content in Docs on 如我所见</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>wsmxcz@gmail.com (Che)</managingEditor><webMaster>wsmxcz@gmail.com (Che)</webMaster><copyright>© 2025 Che</copyright><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wsmxcz.github.io/zh-cn/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>群论基本概念</title><link>https://wsmxcz.github.io/zh-cn/docs/summary-of-group-theory/test/</link><pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/zh-cn/docs/summary-of-group-theory/test/</guid><description>&lt;h2 class="relative group">群的基本定义
+&lt;div id="%E7%BE%A4%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E7%BE%A4%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>一个群 (Group) 是由一个非空集合 \(G\) 与其上的二元运算（记为\(\circ\)）构成的代数结构，该二元运算满足以下公理：&lt;/p></description></item><item><title>常见反应类型的微分速率法则与积分速率法则</title><link>https://wsmxcz.github.io/zh-cn/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</link><pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/zh-cn/docs/differential-and-integral-rate-laws-for-common-types-of-reactions/test/</guid><description>&lt;div
 class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
 >
 &lt;span
@@ -42,20 +50,4 @@ $$
 $$
 \frac{1}{c} \frac{\mathrm{d}[\mathrm{C}]}{\mathrm{d}t} = \frac{1}{d} \frac{\mathrm{d}[\mathrm{D}]}{\mathrm{d}t} = -\frac{1}{a} \frac{\mathrm{d}[\mathrm{A}]}{\mathrm{d}t} = -\frac{1}{b} \frac{\mathrm{d}[\mathrm{B}]}{\mathrm{d}t} = k [\mathrm{A}]^{a} [\mathrm{B}]^b
 $$
-反应的级数是速率方程中反应物的指数之和。总反应级数是每个反应物对应的反应级数之和。速率常数 \(k\) 与温度有关，但与反应物的浓度无关。&lt;/p></description></item><item><title>群论（一）：群论基础</title><link>https://wsmxcz.github.io/zh-cn/docs/summary-of-group-theory/test/</link><pubDate>Fri, 25 Oct 2024 01:48:52 +0800</pubDate><author>wsmxcz@gmail.com (Che)</author><guid>https://wsmxcz.github.io/zh-cn/docs/summary-of-group-theory/test/</guid><description>&lt;h2 class="relative group">1. 群、子群、陪集、商群
-&lt;div id="1-%E7%BE%A4%E5%AD%90%E7%BE%A4%E9%99%AA%E9%9B%86%E5%95%86%E7%BE%A4" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#1-%E7%BE%A4%E5%AD%90%E7%BE%A4%E9%99%AA%E9%9B%86%E5%95%86%E7%BE%A4" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h3 class="relative group">（1）群的基本定义
-&lt;div id="1%E7%BE%A4%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#1%E7%BE%A4%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89" aria-label="锚点">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;p>一个群 (Group) 是由一个非空集合 \(G\) 与其上的二元运算构成的代数结构，记为\(G = (S, \ast)\)。若该二元运算满足以下公理，则称 \(G\) 为一群：&lt;/p></description></item></channel></rss>
+反应的级数是速率方程中反应物的指数之和。总反应级数是每个反应物对应的反应级数之和。速率常数 \(k\) 与温度有关，但与反应物的浓度无关。&lt;/p></description></item></channel></rss>
