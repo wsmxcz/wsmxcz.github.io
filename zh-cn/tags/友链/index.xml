@@ -13,10 +13,10 @@
     
     <item>
       <title>用户列表</title>
-      <link>http://localhost:1313/zh-cn/utilities/</link>
+      <link>http://localhost:1313/zh-cn/aboutme/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       <author>wsmxcz@gmail.com (Che)</author>
-      <guid>http://localhost:1313/zh-cn/utilities/</guid>
+      <guid>http://localhost:1313/zh-cn/aboutme/users/</guid>
       <description>&lt;p&gt;这里有使用 Blowfish 构建的网站实例。点击&lt;a href=&#34;http://localhost:1313/users/users.json&#34;&gt;这里&lt;/a&gt;以 JSON 形式查看完整列表。&lt;/p&gt;
 
   
